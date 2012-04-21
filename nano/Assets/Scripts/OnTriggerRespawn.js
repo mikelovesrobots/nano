@@ -5,6 +5,8 @@ function OnTriggerEnter (other : Collider) {
 }
 
 static function Respawn (otherTransform : Transform) {
-  otherTransform.position = RespawnPoint.lastPoint.position;
-  otherTransform.rotation = RespawnPoint.lastPoint.rotation;
+  var spawnPoint = RespawnPoint.lastPoint;
+  otherTransform.position = spawnPoint.position;
+  otherTransform.rotation = spawnPoint.rotation;
+  spawnPoint.audio.Play();
 }
