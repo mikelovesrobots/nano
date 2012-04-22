@@ -50,7 +50,8 @@
      <Compile Include="Assets\Scripts\OnTriggerDestroyGameObject.js" />
      <Compile Include="Assets\Scripts\OnTriggerDisplayText.js" />
      <Compile Include="Assets\Scripts\OnTriggerEnableTrigger.js" />
-     <Compile Include="Assets\Scripts\OnTriggerFadeIn.js" />
+     <Compile Include="Assets\Scripts\OnTriggerFadeToWhite.js" />
+     <Compile Include="Assets\Scripts\OnTriggerFreezeControls.js" />
      <Compile Include="Assets\Scripts\OnTriggerPlayAudio.js" />
      <Compile Include="Assets\Scripts\OnTriggerRespawn.js" />
      <Compile Include="Assets\Scripts\OnTriggerStick.js" />

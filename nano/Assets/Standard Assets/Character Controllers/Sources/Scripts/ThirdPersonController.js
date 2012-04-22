@@ -88,7 +88,7 @@ private var inAirVelocity = Vector3.zero;
 private var lastGroundedTime = 0.0;
 
 
-private var isControllable = true;
+public var isControllable = true;
 
 function Awake ()
 {
