@@ -5,11 +5,11 @@ var startDisabled : boolean = true;
 
 function Awake () {
   if (startDisabled) {
-    target.isTrigger = false;
+    target.enabled = false;
   }
 }
 
 function OnTriggerEnter () {
-  target.isTrigger = true;
+  target.enabled = true;
 }
 
