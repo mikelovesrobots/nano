@@ -2,11 +2,12 @@
 
 var target: Transform;
 var seeking: boolean = false;
+var speed : float = 2.0;
 
 function Update () {
   if (seeking) {
     transform.LookAt(target);
-    transform.Translate(Vector3.forward * Time.deltaTime);
+    transform.Translate(Vector3.forward * Time.deltaTime * speed);
   }  
 }
 

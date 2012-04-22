@@ -1,6 +1,8 @@
 #pragma strict
 
 var target : GameObject;
+var allowRepeats : boolean = false;
+private var hasPlayed : boolean = false;
 
 function Awake () {
   if (!target) {
@@ -9,6 +11,9 @@ function Awake () {
 }
 
 function OnTriggerEnter () {
-  target.audio.Play();
+  if (!hasPlayed || allowRepeats) {
+    target.audio.Play();
+    hasPlayed = true;
+  }
 }
 
