@@ -55,6 +55,7 @@
      <Compile Include="Assets\Scripts\OnTriggerPlayAudio.js" />
      <Compile Include="Assets\Scripts\OnTriggerRespawn.js" />
      <Compile Include="Assets\Scripts\OnTriggerStick.js" />
+     <Compile Include="Assets\Scripts\QuitController.js" />
      <Compile Include="Assets\Scripts\RespawnPoint.js" />
      <Compile Include="Assets\Scripts\SeekerAI.js" />
      <Compile Include="Assets\Scripts\TextDisplayer.js" />

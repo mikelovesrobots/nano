@@ -26,6 +26,11 @@ private var fading: boolean = false;
 //--------------------------------------------------------------------
 
 function OnGUI() {
+  if (Input.GetKey(KeyCode.Escape)) {
+    Debug.Log("Quitting");
+    Application.Quit();
+  }	
+
   if (fading) {
     alpha += 1.0 * fadeSpeed * Time.deltaTime;  
     alpha = Mathf.Clamp01(alpha);   
